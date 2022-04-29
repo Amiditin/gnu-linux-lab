@@ -3,7 +3,6 @@
 dir=`dirname $0`
 source_file="$dir/users_list.txt"
 
-
 #  iter=1
 
 for user_data in $(cat "$source_file") ; do
@@ -34,7 +33,7 @@ fi
 echo ""
 
 
-#  [ $iter -eq 1 ] && exit 8  #  FIXME: comment this lina later
+#  [ $iter -eq 10 ] && exit 8  #  FIXME: comment this lina later
 #  iter=$(($iter+1))
 
 done
